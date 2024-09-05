@@ -1,5 +1,6 @@
+/* GET homepage */
 const index = (req, res) => {
-    res.render('index', { title: 'Appointment Management System' });
+    res.render('index', { title: 'express' });
     };
     module.exports = {
         index
